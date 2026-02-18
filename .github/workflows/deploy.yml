@@ -1,3 +1,5 @@
+name: Deploy to GitHub Pages
+
 on:
   push:
     branches: [main]
@@ -46,12 +48,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-
-
-
-
-
-
-
-^G Get Help       ^O WriteOut       ^R Read File      ^Y Prev Pg        ^K Cut Text       ^C Cur Pos        
-^X Exit           ^J Justify        ^W Where is       ^V Next Pg        ^U UnCut Text     ^T To Spell       
